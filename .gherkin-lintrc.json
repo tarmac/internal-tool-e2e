@@ -2,7 +2,7 @@
   "no-files-without-scenarios" : "on",
   "no-unnamed-features": "on",
   "no-unnamed-scenarios": "on",
-  "allowed-tags": ["on", {"tags": ["@SANITY", "@MUTATION", "@EXTERNAL-INSTALLED-RECIPE", "@RECIPE-SCRAPPER", "@CREATE-GENERIC-INGREDIENT", "@CREATE-RECIPE", "@UPDATE-GENERIC-INGREDIENT", "@BUG", "@WIP"], "patterns": ["^@OMNIACT-*"]}],
+  "allowed-tags": ["on", {"tags": ["@SMOKE", "@SANITY", "@BUG", "@WIP"]}],
   "scenario-size": ["on", { "steps-length": { "Background": 10, "Scenario": 20 }}],
   "no-partially-commented-tag-lines": "on",
   "no-trailing-spaces": "on",
