@@ -1,0 +1,18 @@
+{
+  "name": "internal-tool-e2e",
+  "version": "1.0.0",
+  "description": "Test suite for tarmac internal tool",
+  "author": "Belen Ramondelli",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^10.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "gherkin-lint": "^4.2.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "lint": "eslint 'cypress/**/*.js'",
+    "gherkin-lint": "./node_modules/.bin/gherkin-lint -c .gherkin-lintrc.json"
+  }
+}

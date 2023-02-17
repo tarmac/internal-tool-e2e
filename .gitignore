@@ -1,0 +1,13 @@
+# NPM ignores
+node_modules/
+package-lock.json
+
+# IDE Folfers
+.idea
+
+# MacOS files
+.DS_Store
+cypress/.DS_Store
+
+# Visual Studio files
+.vscode
