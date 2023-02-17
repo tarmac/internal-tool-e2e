@@ -22,6 +22,6 @@ npm run gherkin-lint
 ```
 
 ## **4. Run cypress UI with npm**
-    ```
-    npm run cypress:open
-    ```
+```
+npm run cypress:open
+```

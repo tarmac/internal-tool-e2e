@@ -2,7 +2,7 @@
   "name": "internal-tool-e2e",
   "version": "1.0.0",
   "description": "Test suite for tarmac internal tool",
-  "author": "Belen Ramondelli",
+  "author": "Automation practice",
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.3",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
