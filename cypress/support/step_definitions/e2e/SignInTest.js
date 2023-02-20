@@ -1,5 +1,5 @@
 import { Given, Then } from '@badeball/cypress-cucumber-preprocessor'
-import SignInPage from '../../pages/SignInPage.spec'
+import SignInPage from '../../page-objects/SignInPage'
 
 Given('I navigate to Tarmac internal tool', () => {
     SignInPage.enterURL()
