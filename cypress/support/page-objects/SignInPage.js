@@ -1,7 +1,7 @@
 class SignInPage {
-    // objects
+    // elements
     getSignInBtn() {
-        return cy.get('[id="SignInGoogleBtn"]')
+        return cy.get('#SignInGoogleBtn')
     }
 
     // methods
