@@ -1,17 +1,19 @@
 {
   "name": "internal-tool-e2e",
   "version": "1.0.0",
-  "description": "Test suite for tarmac internal tool",
-  "author": "Automation practice",
+  "description": "Test suite for Tarmac Internal tool",
+  "author": "Automation Practice",
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.3",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^10.0.0",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
     "eslint-plugin-cypress": "^2.12.1",
     "gherkin-lint": "^4.2.2"
   },
   "scripts": {
     "cypress:open": "cypress open",
+    "smoke-e2e": "./node_modules/.bin/cypress run --spec 'cypress/e2e/smoke-e2e/**/*' -e TAGS=\"@SMOKE and not @BUG and not @WIP\"",
     "lint": "eslint 'cypress/**/*.js'",
     "gherkin-lint": "./node_modules/.bin/gherkin-lint -c .gherkin-lintrc.json"
   }

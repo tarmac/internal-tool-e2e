@@ -11,3 +11,6 @@ cypress/.DS_Store
 
 # Visual Studio files
 .vscode
+
+# Cypress
+cypress/screenshots

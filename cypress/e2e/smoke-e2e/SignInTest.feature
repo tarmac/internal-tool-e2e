@@ -1,3 +1,4 @@
+@SMOKE
 Feature: Sign In Test
   Testing Sign In page
 
