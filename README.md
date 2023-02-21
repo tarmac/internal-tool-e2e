@@ -21,7 +21,17 @@ npm run lint
 npm run gherkin-lint
 ```
 
-## **4. Start cypress and run tests**
+## **4. Configure Cypress**
+
+Create a new file called ```cypress.env.json``` with the next configuration
+
+```
+{
+    "INTERNAL_TOOL_URL": "Internal tool url"
+}
+```
+
+## **5. Start cypress and run tests**
 - **Run cypress UI with npm**
     ```
     npm run cypress:open
@@ -32,5 +42,5 @@ npm run gherkin-lint
     ⚠️ Scenarios with WIP or BUG tag are excluded
 
     ```
-    npm run smoke-e2e
+    npm run smokeE2E
     ```

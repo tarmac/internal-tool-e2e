@@ -5,8 +5,8 @@ class SignInPage {
     }
 
     // methods
-    enterURL() {
-        cy.visit('https://internal-tool.staplerroja.com')
+    enterURL(url) {
+        cy.visit(url)
     }
 }
 

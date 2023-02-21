@@ -13,8 +13,12 @@
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "smoke-e2e": "./node_modules/.bin/cypress run --spec 'cypress/e2e/smoke-e2e/**/*' -e TAGS=\"@SMOKE and not @BUG and not @WIP\"",
+    "smokeE2E": "./node_modules/.bin/cypress run --spec 'cypress/e2e/smokeE2E/**/*' -e TAGS=\"@SMOKE and not @BUG and not @WIP\"",
     "lint": "eslint 'cypress/**/*.js'",
     "gherkin-lint": "./node_modules/.bin/gherkin-lint -c .gherkin-lintrc.json"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/stepDefinitions/**/*.{js,ts}",
+    "nonGlobalStepDefinitions": true
   }
 }
